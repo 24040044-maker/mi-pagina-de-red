@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto y Quejas</title>
+  <link rel="stylesheet" href="styles/styles2.css">
+</head>
+<body>
+  <!-- Menú lateral -->
+  <div class="sidebar">
+    <button onclick="window.location.href='index.html'">🏠 Regresar a Inicio</button>
+    <button onclick="window.location.href='shop.html'">🛒 Ventas</button>
+    <button onclick="window.location.href='index3.html'">mi blog</button>
+  </div>
+
+  <!-- Encabezado -->
+  <header>
+    <h1>📞 Contacto y Quejas</h1>
+    <p>Envíanos tus dudas, comentarios o quejas. Tu opinión es importante.</p>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <section class="post">
+      <div class="content">
+        <h2>Formulario de Contacto</h2>
+        <p>Completa el siguiente formulario y nos pondremos en contacto contigo:</p>
+        
+        <form class="container">
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+          </div>
+
+          <div class="form-group">
+            <label for="correo">Correo electrónico:</label>
+            <input type="text" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Mensaje o queja:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." style="width:100%; border-radius:10px; padding:10px; border:1px solid #ddd;" required></textarea>
+          </div>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="post">
+      <div class="content">
+        <h2>Información de Contacto</h2>
+        <p><strong>Teléfono:</strong> +52 55 1234 5678</p>
+        <p><strong>Email:</strong> soporte@tiendaescolar.com</p>
+        <p><strong>Dirección:</strong> Calle Educación #123, Ciudad de México</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2025 Tienda Escolar | Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
